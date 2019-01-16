@@ -1,4 +1,4 @@
-h2.  Water Closet Coin
+##  Water Closet Coin
 
 Water Closet Coin is the world's leading lavatory token.
 Built on the Ethereum network, WC Coin is a token made for the poople, by the people.
