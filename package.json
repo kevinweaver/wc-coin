@@ -1,0 +1,22 @@
+{
+  "name": "wc-coin",
+  "version": "1.0.0",
+  "description": "Water Closet Coin",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinweaver/wc-coin.git"
+  },
+  "author": "Kevin Weaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinweaver/wc-coin/issues"
+  },
+  "homepage": "https://github.com/kevinweaver/wc-coin#readme"
+}
