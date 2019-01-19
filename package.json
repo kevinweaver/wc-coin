@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kevinweaver/wc-coin/issues"
   },
-  "homepage": "https://github.com/kevinweaver/wc-coin#readme"
+  "homepage": "https://github.com/kevinweaver/wc-coin#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^1.12.0"
+  }
 }
