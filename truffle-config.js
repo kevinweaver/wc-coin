@@ -3,8 +3,8 @@
 // npm install --save-dev dotenv truffle-wallet-provider ethereumjs-wallet
 
 // Create .env in project root, with keys:
-// ROPSTEN_PRIVATE_KEY="123abc"
-// MAINNET_PRIVATE_KEY="123abc"
+// ROPSTEN_PRIVATE_KEY=""
+// MAINNET_PRIVATE_KEY=""
 
 require('dotenv').config();
 const Web3 = require("web3");
@@ -31,13 +31,13 @@ module.exports = {
 			network_id: "1",
 			provider: mainNetProvider,
 			gas: 4600000,
-			gasPrice: web3.toWei("20", "gwei"),
+			gasPrice: web3.utils.toWei("20", "gwei"),
 		},
 		ropsten: { // Provided by Infura, load keys in .env file
 			network_id: "3",
 			provider: ropstenProvider,
 			gas: 4600000,
-			gasPrice: web3.toWei("20", "gwei"),
+			gasPrice: web3.utils.toWei("20", "gwei"),
 		},
 		kovan: {
 			network_id: 42,
